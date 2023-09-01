@@ -9,7 +9,7 @@
     "scripts": {
         "test": "jest --coverage --maxWorkers=1 --maxConcurrency=1",
         "prestart": "npm run build",
-        "start": "NODE_ENV=production node ./dist/src/index.js",
+        "start": "NODE_ENV=production node ./dist/index.js",
         "build": "npm run clean && tsc -p tsconfig.json",
         "lint": "gts lint",
         "clean": "gts clean",
@@ -39,6 +39,8 @@
     },
     "homepage": "https://github.com/xcheng85/node.js-graphql-typescript#readme",
     "dependencies": {
+        "@tensorflow/tfjs-node": "^4.10.0",
+        "@tensorflow/tfjs-node-gpu": "^4.10.0",
         "@xcheng85/node-infra": "^1.0.9",
         "body-parser": "^1.20.1",
         "class-transformer": "^0.5.1",

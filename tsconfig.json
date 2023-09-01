@@ -12,7 +12,7 @@
       "preserveConstEnums": true,
       "skipLibCheck": true,
       "moduleResolution": "node",
-      "rootDir": ".",
+      // "rootDir": ".",
       "outDir": "dist",
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,

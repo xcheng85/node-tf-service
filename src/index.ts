@@ -6,10 +6,6 @@ import bodyParser from 'body-parser';
 import server from './server';
 import {logger} from '@xcheng85/node-infra';
 
-interface MyContext {
-  token?: string;
-}
-
 async function main() {
   const httpServer = http.createServer(server.instance);
   // const app = express();
